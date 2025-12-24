@@ -11,7 +11,6 @@ import {
   BarChart3,
   Percent,
   Clock,
-  Star,
   Instagram,
   MessageCircle,
 } from "lucide-react";
@@ -92,13 +91,9 @@ export default function Home() {
       <main className="flex-1">
         <header className="py-8 md:py-12 bg-card border-b">
           <div className="container mx-auto px-4 text-center">
-            <div className="flex items-center justify-center gap-3 md:gap-4">
-              <Star className="w-6 h-6 md:w-8 md:h-8 text-primary fill-primary" />
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-headline text-foreground tracking-tight">
-                DREU-CITU
-              </h1>
-              <Star className="w-6 h-6 md:w-8 md:h-8 text-primary fill-primary" />
-            </div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-headline text-foreground tracking-tight">
+              DREU-CITU
+            </h1>
             <h2 className="mt-2 text-lg md:text-xl text-muted-foreground">
               Carriage and Wagon Works
             </h2>
