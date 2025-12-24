@@ -4,9 +4,9 @@
       "page": "holidays",
       "files": [
         {
-          "id": "holidays-2024",
-          "name": "Holidays List 2024",
-          "url": "/files/holidays-2024.pdf",
+          "id": "holidays-2026",
+          "name": "Holidays List 2026",
+          "url": "https://drive.google.com/file/d/1h4wlQYwJBPsv8OaPseW-qkUTglq-peKE/view?usp=drive_link",
           "size": "1.2MB"
         }
       ]
@@ -33,7 +33,14 @@
     },
     {
       "page": "nrh-op-timing",
-      "files": []
+      "files": [
+        {
+          "id": "nrh1",
+          "name": "NRH OP Timings",
+          "url": "https://drive.google.com/file/d/1rG6lMxetbGkgSfB46i3RwUiXdKvVa3Z9/view?usp=sharing",
+          "size": "705 KB"
+        }
+      ]
     }
   ]
 }

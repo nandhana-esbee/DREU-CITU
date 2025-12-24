@@ -43,3 +43,6 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+
+DREU-CITU\src\lib\files-data.json
+DREU-CITU\src\lib\placeholder-images.json

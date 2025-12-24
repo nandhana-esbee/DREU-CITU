@@ -71,7 +71,12 @@ export function FileListPage({ title, files }: FileListPageProps) {
                         </div>
                       </div>
                       <Button asChild variant="outline" size="icon">
-                        <a href={file.url} download>
+                        <a
+                          href={file.url}
+                          download
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Download />
                           <span className="sr-only">Download</span>
                         </a>
