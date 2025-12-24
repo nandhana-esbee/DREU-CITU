@@ -1,0 +1,39 @@
+{
+  "pageFiles": [
+    {
+      "page": "holidays",
+      "files": [
+        {
+          "id": "holidays-2024",
+          "name": "Holidays List 2024",
+          "url": "/files/holidays-2024.pdf",
+          "size": "1.2MB"
+        }
+      ]
+    },
+    {
+      "page": "promotions",
+      "files": []
+    },
+    {
+      "page": "images",
+      "files": []
+    },
+    {
+      "page": "qr-codes",
+      "files": []
+    },
+    {
+      "page": "pay-chart",
+      "files": []
+    },
+    {
+      "page": "incentive-rate",
+      "files": []
+    },
+    {
+      "page": "nrh-op-timing",
+      "files": []
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-import { UnderMaintenance } from "@/components/under-maintenance";
+import { FileListPage } from "@/components/file-list-page";
+import { getFilesForPage } from "@/lib/files-data";
 
 export default function HolidaysPage() {
-  return <UnderMaintenance />;
+  const files = getFilesForPage("holidays");
+  return <FileListPage title="Holidays List" files={files} />;
 }

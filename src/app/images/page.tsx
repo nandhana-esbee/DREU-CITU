@@ -1,5 +1,7 @@
-import { UnderMaintenance } from "@/components/under-maintenance";
+import { FileListPage } from "@/components/file-list-page";
+import { getFilesForPage } from "@/lib/files-data";
 
 export default function ImagesPage() {
-  return <UnderMaintenance />;
+  const files = getFilesForPage("images");
+  return <FileListPage title="Images" files={files} />;
 }

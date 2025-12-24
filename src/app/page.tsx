@@ -158,11 +158,11 @@ export default function Home() {
       <footer className="py-6 mt-auto bg-accent text-accent-foreground">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm">
-            © {new Date().getFullYear()} CITU Connect. All rights reserved.
+            © {new Date().getFullYear()} All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw=="
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -171,7 +171,7 @@ export default function Home() {
               <Instagram className="w-6 h-6" />
             </a>
             <a
-              href="https://whatsapp.com"
+              href="https://whatsapp.com/channel/0029Vb0thaZADTOCGswtzQ3O"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"

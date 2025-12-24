@@ -1,5 +1,7 @@
-import { UnderMaintenance } from "@/components/under-maintenance";
+import { FileListPage } from "@/components/file-list-page";
+import { getFilesForPage } from "@/lib/files-data";
 
 export default function NrhOpTimingPage() {
-  return <UnderMaintenance />;
+  const files = getFilesForPage("nrh-op-timing");
+  return <FileListPage title="NRH OP Timing" files={files} />;
 }
