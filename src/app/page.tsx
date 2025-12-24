@@ -63,6 +63,18 @@ const infoCards = [
   },
 ];
 
+const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    {...props}
+  >
+    <path d="M16.6 14.21a11.16 11.16 0 0 1-2.6-1.51c-.27-.13-.64-.2-1.01.11-.37.31-.57.51-.79.71s-.41.22-.67.12a5.45 5.45 0 0 1-2.07-1.28 5.45 5.45 0 0 1-1.28-2.07c-.1-.26 0-.52.12-.67s.4-.42.71-.79c.31-.37.24-.74.11-1.01a11.16 11.16 0 0 1-1.51-2.6c-.25-.61-.89-.83-1.45-.49l-.69.4c-.6.35-1.01.93-1.01 1.63 0 .8.22 1.58.62 2.31 1.1 2.1 2.89 3.89 5 5 1.1.6 2.37.95 3.69.95.7 0 1.28-.41 1.63-1.01l.4-.69c.34-.56.12-1.2-.49-1.45zM12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" />
+  </svg>
+);
+
+
 export default function Home() {
   const [api, setApi] = React.useState<CarouselApi>();
   const carouselImages = PlaceHolderImages.filter((img) =>
@@ -155,6 +167,15 @@ export default function Home() {
             © {new Date().getFullYear()} All rights reserved.
           </p>
           <div className="flex items-center gap-6">
+            <a
+              href="https://wa.me/9003093900"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="hover:opacity-75 transition-opacity"
+            >
+              <WhatsAppIcon className="w-6 h-6" />
+            </a>
             <a
               href="https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw=="
               target="_blank"
