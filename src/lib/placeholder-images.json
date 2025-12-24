@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "carousel-1",
+      "description": "Workers in a factory",
+      "imageUrl": "https://images.unsplash.com/photo-1598299803204-b73796f43289?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYWN0b3J5JTIwd29ya2Vyc3xlbnwwfHx8fDE3NjY1ODk2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory workers"
+    },
+    {
+      "id": "carousel-2",
+      "description": "Train on a track",
+      "imageUrl": "https://images.unsplash.com/photo-1523464582678-6e1b404d812b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dHJhaW4lMjB0cmFja3xlbnwwfHx8fDE3NjY1ODk2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "train track"
+    },
+    {
+      "id": "carousel-4",
+      "description": "Close-up on train wagon",
+      "imageUrl": "https://images.unsplash.com/photo-1609416382720-1196bb3e83fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0cmFpbiUyMHdhZ29ufGVufDB8fHx8MTc2NjU4OTY0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "train wagon"
+    }
+  ]
+}
