@@ -12,7 +12,6 @@ import {
   Percent,
   Clock,
   Instagram,
-  MessageCircle,
 } from "lucide-react";
 
 import {
@@ -164,15 +163,6 @@ export default function Home() {
               className="hover:opacity-75 transition-opacity"
             >
               <Instagram className="w-6 h-6" />
-            </a>
-            <a
-              href="https://whatsapp.com/channel/0029Vb0thaZADTOCGswtzQ3O"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp"
-              className="hover:opacity-75 transition-opacity"
-            >
-              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
         </div>
