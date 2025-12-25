@@ -24,42 +24,56 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { cn } from "@/lib/utils";
 
 const infoCards = [
   {
     title: "Holidays List",
     icon: CalendarDays,
     href: "/holidays",
+    gradient: "from-purple-500 to-indigo-600",
   },
   {
     title: "Promotions",
     icon: Megaphone,
     href: "/promotions",
+    gradient: "from-pink-500 to-rose-600",
   },
   {
     title: "Images",
     icon: ImageIcon,
     href: "/images",
+    gradient: "from-orange-500 to-amber-600",
   },
   {
     title: "RH/PER QR Codes",
     icon: QrCode,
     href: "/qr-codes",
+    gradient: "from-teal-500 to-cyan-600",
   },
   {
     title: "Pay Chart",
     icon: BarChart3,
     href: "/pay-chart",
+    gradient: "from-sky-500 to-blue-600",
   },
   {
     title: "Incentive Rate",
     icon: Percent,
     href: "/incentive-rate",
+    gradient: "from-lime-500 to-green-600",
   },
   {
     title: "NRH OP Timing",
     icon: Clock,
     href: "/nrh-op-timing",
+    gradient: "from-violet-500 to-fuchsia-600",
+  },
+  {
+    title: "Social Media",
+    icon: Instagram,
+    href: "https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw==",
+    gradient: "from-red-500 to-yellow-500",
   },
 ];
 
@@ -146,12 +160,19 @@ export default function Home() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
               {infoCards.map((card) => (
                 <Link href={card.href} key={card.title} className="group">
-                  <Card className="h-full transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:border-primary/50">
-                    <CardContent className="flex flex-col items-center justify-center aspect-square p-4 sm:p-6 text-center">
-                      <card.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 text-primary transition-transform duration-300 group-hover:scale-110" />
-                      <h3 className="text-sm sm:text-base font-semibold text-foreground">
-                        {card.title}
-                      </h3>
+                  <Card className={cn(
+                      "h-full transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl relative overflow-hidden",
+                      "bg-gradient-to-br",
+                      card.gradient
+                    )}>
+                    <CardContent className="flex flex-col items-center justify-center aspect-square p-4 sm:p-6 text-center text-white">
+                       <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
+                       <div className="relative z-10 flex flex-col items-center justify-center">
+                        <card.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 transition-transform duration-300 group-hover:scale-110" />
+                        <h3 className="text-sm sm:text-base font-semibold">
+                          {card.title}
+                        </h3>
+                      </div>
                     </CardContent>
                   </Card>
                 </Link>
