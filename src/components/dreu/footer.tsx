@@ -12,7 +12,7 @@ const AppFooter = () => {
         </p>
         <div className="flex items-center space-x-6">
           <a
-            href="https://wa.me/1234567890" // Replace with actual WhatsApp link
+            href="https://whatsapp.com/channel/0029Vb0thaZADTOCGswtzQ3O" // Replace with actual WhatsApp link
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
@@ -21,7 +21,7 @@ const AppFooter = () => {
             <MessageCircle className="h-7 w-7" />
           </a>
           <a
-            href="https://instagram.com/dreu_citu" // Replace with actual Instagram link
+            href="https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw==" // Replace with actual Instagram link
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow on Instagram"

@@ -8,27 +8,27 @@
     },
     {
       "id": "carousel1",
-      "description": "DREU logo",
-      "imageUrl": "https://images.unsplash.com/photo-1622258416235-d0390821fc08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b3JrZXJzJTIwbWVldGluZ3xlbnwwfHx8fDE3NjY2NTM2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo"
+      "description": "Person speeking",
+      "imageUrl": "/assets/speech.jpg",
+      "imageHint": "speech"
     },
     {
       "id": "carousel2",
-      "description": "Carousel image 2",
-      "imageUrl": "https://images.unsplash.com/photo-1622258416235-d0390821fc08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b3JrZXJzJTIwbWVldGluZ3xlbnwwfHx8fDE3NjY2NTM2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Group meetings",
+      "imageUrl": "/assets/meeting.jpeg",
       "imageHint": "workers meeting"
     },
     {
       "id": "carousel3",
-      "description": "Carousel image 3",
-      "imageUrl": "https://images.unsplash.com/photo-1591577255023-15ed698a888d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1bmlvbiUyMHByb3Rlc3R8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "union protest"
+      "description": "Group of people",
+      "imageUrl": "/assets/group.jpg",
+      "imageHint": "workers meeting"
     },
     {
       "id": "carousel4",
-      "description": "Carousel image 4",
-      "imageUrl": "https://images.unsplash.com/photo-1699221956427-b73f47de367e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFjdG9yeSUyMGludGVyaW9yfGVufDB8fHx8MTc2NjY1MzY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "factory interior"
+      "description": "Arch image",
+      "imageUrl": "/assets/arch.jpg",
+      "imageHint": "Front gate"
     },
     {
       "id": "holidays-card",
