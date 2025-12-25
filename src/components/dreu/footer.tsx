@@ -4,10 +4,11 @@ const AppFooter = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground mt-12 py-6 shadow-inner">
-      <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between">
+    <footer className="relative bg-transparent text-primary-foreground mt-12 py-6 shadow-inner overflow-hidden">
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      <div className="container relative mx-auto px-4 flex flex-col sm:flex-row items-center justify-between">
         <p className="text-sm text-center sm:text-left mb-4 sm:mb-0">
-          &copy; {currentYear} DREU-CITU. All Rights Reserved.
+          &copy; {currentYear} All Rights Reserved.
         </p>
         <div className="flex items-center space-x-6">
           <a
