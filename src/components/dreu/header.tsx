@@ -2,21 +2,21 @@ import { Star } from 'lucide-react';
 
 const AppHeader = () => {
   return (
-    <header className="relative bg-transparent text-primary-foreground shadow-md overflow-hidden">
-      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
-      <div className="container relative mx-auto px-4 py-4 flex flex-col items-center justify-center">
-        <div className="flex items-center justify-center">
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
-          <h1 className="text-2xl md:text-4xl font-bold tracking-wider font-headline mx-4">
+    <header className="relative bg-primary text-primary-foreground py-6 shadow-2xl overflow-hidden">
+      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="container relative mx-auto px-4 flex flex-col items-center justify-center text-center">
+        <div className="flex items-center justify-center mb-2">
+          <Star className="text-yellow-400 h-6 w-6 md:h-8 md:w-8" fill="currentColor" />
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight font-headline mx-4 text-white drop-shadow-lg">
             DREU-CITU
           </h1>
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
+          <Star className="text-yellow-400 h-6 w-6 md:h-8 md:w-8" fill="currentColor" />
         </div>
-        <div className="text-center mt-1">
-          <p className="text-sm md:text-base font-medium tracking-wide">
+        <div className="text-white/90">
+          <p className="text-base md:text-lg font-medium tracking-wide">
             Carriage and Wagon Works
           </p>
-          <p className="text-xs md:text-sm">Perambur</p>
+          <p className="text-sm md:text-base font-light">Perambur</p>
         </div>
       </div>
     </header>
