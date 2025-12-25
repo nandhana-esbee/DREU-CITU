@@ -1,3 +1,3 @@
 # DREU-CITU WEBSITE
 
-This website includes details and notifications regarding DREU-CITU.
+This website contains notifications from DREU-CITU , Perambur, Chennai

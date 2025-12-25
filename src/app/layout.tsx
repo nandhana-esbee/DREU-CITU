@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'CITU Connect',
-  description: 'DREU-CITU Carriage and Wagon Works, Perambur',
+  title: 'DREU-CITU Portal',
+  description: 'Official website for DREU-CITU union at Carriage and Wagon Works, Perambur.',
 };
 
 export default function RootLayout({
