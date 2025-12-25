@@ -1,3 +1,17 @@
+import AppHeader from '@/components/dreu/header';
+import ImageCarousel from '@/components/dreu/image-carousel';
+import InfoCards from '@/components/dreu/info-cards';
+import AppFooter from '@/components/dreu/footer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex min-h-screen flex-col bg-background/80 backdrop-blur-sm">
+      <AppHeader />
+      <main className="flex-grow container mx-auto px-4 py-8">
+        <ImageCarousel />
+        <InfoCards />
+      </main>
+      <AppFooter />
+    </div>
+  );
 }

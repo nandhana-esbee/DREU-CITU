@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "background",
+      "description": "Blurred background image for the entire site.",
+      "imageUrl": "https://images.unsplash.com/photo-1507692744406-b171ab8feabd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHRleHR1cmV8ZW58MHx8fHwxNzY2NjIxMjg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract texture"
+    },
+    {
+      "id": "carousel1",
+      "description": "Carousel image 1",
+      "imageUrl": "https://images.unsplash.com/photo-1678279635460-6626252c6ad2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cmFpbiUyMHJhaWx3YXl8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "train railway"
+    },
+    {
+      "id": "carousel2",
+      "description": "Carousel image 2",
+      "imageUrl": "https://images.unsplash.com/photo-1622258416235-d0390821fc08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b3JrZXJzJTIwbWVldGluZ3xlbnwwfHx8fDE3NjY2NTM2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "workers meeting"
+    },
+    {
+      "id": "carousel3",
+      "description": "Carousel image 3",
+      "imageUrl": "https://images.unsplash.com/photo-1591577255023-15ed698a888d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1bmlvbiUyMHByb3Rlc3R8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "union protest"
+    },
+    {
+      "id": "carousel4",
+      "description": "Carousel image 4",
+      "imageUrl": "https://images.unsplash.com/photo-1699221956427-b73f47de367e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFjdG9yeSUyMGludGVyaW9yfGVufDB8fHx8MTc2NjY1MzY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory interior"
+    },
+    {
+      "id": "holidays-card",
+      "description": "Background for Holidays List card",
+      "imageUrl": "https://images.unsplash.com/photo-1642359085898-d9fde39507c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWxlbmRhciUyMHNjaGVkdWxlfGVufDB8fHx8MTc2NjU5Nzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calendar schedule"
+    },
+    {
+      "id": "promotions-card",
+      "description": "Background for Promotions card",
+      "imageUrl": "https://images.unsplash.com/photo-1625612740939-17984bb12f7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXJlZXIlMjBsYWRkZXJ8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "career ladder"
+    },
+    {
+      "id": "images-card",
+      "description": "Background for Images card",
+      "imageUrl": "https://images.unsplash.com/photo-1576266394503-4999348b5447?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaG90byUyMGdhbGxlcnl8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photo gallery"
+    },
+    {
+      "id": "qr-card",
+      "description": "Background for QR Codes card",
+      "imageUrl": "https://images.unsplash.com/photo-1632251141959-40b21a6c118c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwY29kZXxlbnwwfHx8fDE3NjY2NDcxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital code"
+    },
+    {
+      "id": "pay-chart-card",
+      "description": "Background for Pay Chart card",
+      "imageUrl": "https://images.unsplash.com/photo-1738996747326-65b5d7d7fe9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmluYW5jaWFsJTIwZ3JhcGh8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "financial graph"
+    },
+    {
+      "id": "incentive-card",
+      "description": "Background for Incentive Rate card",
+      "imageUrl": "https://images.unsplash.com/photo-1579227114496-27346f474519?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb25leSUyMGdyb3d0aHxlbnwwfHx8fDE3NjY2MDQxMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "money growth"
+    },
+    {
+      "id": "timing-card",
+      "description": "Background for NRH OP Timing card",
+      "imageUrl": "https://images.unsplash.com/photo-1670911166109-60c528aef553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbG9jayUyMHRpbWV8ZW58MHx8fHwxNzY2NjUzNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clock time"
+    },
+    {
+      "id": "social-card",
+      "description": "Background for Social Media card",
+      "imageUrl": "https://images.unsplash.com/photo-1611926653458-09294b3142bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2NjU4MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social network"
+    }
+  ]
 }
