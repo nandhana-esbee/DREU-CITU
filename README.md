@@ -1,5 +1,3 @@
-# Firebase Studio
+# DREU-CITU WEBSITE
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+This website contains notifications from DREU-CITU , Perambur, Chennai

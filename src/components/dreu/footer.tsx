@@ -1,5 +1,4 @@
-import { Instagram } from 'lucide-react';
-import { WhatsappIcon } from '@/components/icons';
+import { Instagram, MessageCircle } from 'lucide-react';
 
 const AppFooter = () => {
   const currentYear = new Date().getFullYear();
@@ -18,7 +17,7 @@ const AppFooter = () => {
             aria-label="Chat on WhatsApp"
             className="text-primary-foreground hover:text-accent transition-colors"
           >
-            <WhatsappIcon className="h-6 w-6" />
+            <MessageCircle className="h-6 w-6" />
           </a>
           <a
             href="https://instagram.com/dreu_citu" // Replace with actual Instagram link
