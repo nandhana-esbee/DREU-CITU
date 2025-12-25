@@ -89,18 +89,8 @@ const InfoCards = () => {
               )}
               <div className="absolute inset-0 bg-black/50 backdrop-blur-sm transition-colors duration-300 group-hover:bg-black/60"></div>
               <div className="relative flex h-full flex-col items-center justify-center p-4 text-center text-white">
-                <div className="relative h-20 w-20 rounded-full overflow-hidden shadow-lg" style={{ boxShadow: '0 0 15px rgba(0,0,0,0.5)' }}>
-                  {cardImage && (
-                    <Image
-                      src={cardImage.imageUrl}
-                      alt=""
-                      fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-110"
-                    />
-                  )}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                     <Icon className="h-12 w-12 text-white drop-shadow-lg" />
-                  </div>
+                <div className="relative flex items-center justify-center h-20 w-20">
+                  <Icon className="h-12 w-12 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="mt-2 font-bold text-lg font-headline">{card.title}</h3>
               </div>
