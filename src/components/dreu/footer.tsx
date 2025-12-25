@@ -8,7 +8,7 @@ const AppFooter = () => {
       <div className="absolute inset-0 bg-black/30"></div>
       <div className="container relative mx-auto px-4 flex flex-col sm:flex-row items-center justify-between">
         <p className="text-sm text-white/80 text-center sm:text-left mb-4 sm:mb-0">
-          &copy; {currentYear} DREU-CITU, Perambur. All Rights Reserved.
+          &copy; {currentYear} All Rights Reserved.
         </p>
         <div className="flex items-center space-x-6">
           <a
