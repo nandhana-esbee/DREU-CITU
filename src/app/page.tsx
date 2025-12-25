@@ -12,6 +12,8 @@ import {
   Percent,
   Clock,
   Instagram,
+  MessageCircle,
+  Star,
 } from "lucide-react";
 
 import {
@@ -77,18 +79,6 @@ const infoCards = [
   },
 ];
 
-const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    {...props}
-  >
-    <path d="M16.6 14.21a11.16 11.16 0 0 1-2.6-1.51c-.27-.13-.64-.2-1.01.11-.37.31-.57.51-.79.71s-.41.22-.67.12a5.45 5.45 0 0 1-2.07-1.28 5.45 5.45 0 0 1-1.28-2.07c-.1-.26 0-.52.12-.67s.4-.42.71-.79c.31-.37.24-.74.11-1.01a11.16 11.16 0 0 1-1.51-2.6c-.25-.61-.89-.83-1.45-.49l-.69.4c-.6.35-1.01.93-1.01 1.63 0 .8.22 1.58.62 2.31 1.1 2.1 2.89 3.89 5 5 1.1.6 2.37.95 3.69.95.7 0 1.28-.41 1.63-1.01l.4-.69c.34-.56.12-1.2-.49-1.45zM12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" />
-  </svg>
-);
-
-
 export default function Home() {
   const [api, setApi] = React.useState<CarouselApi>();
   const carouselImages = PlaceHolderImages.filter((img) =>
@@ -116,9 +106,13 @@ export default function Home() {
       <main className="flex-1">
         <header className="py-8 md:py-12 bg-card border-b">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-headline text-primary tracking-tight">
-              DREU-CITU
-            </h1>
+            <div className="flex items-center justify-center gap-4">
+              <Star className="w-8 h-8 text-accent" />
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-headline text-primary tracking-tight">
+                DREU-CITU
+              </h1>
+              <Star className="w-8 h-8 text-accent" />
+            </div>
             <h2 className="mt-2 text-lg md:text-xl text-muted-foreground">
               Carriage and Wagon Works
             </h2>
@@ -158,14 +152,22 @@ export default function Home() {
         <section className="py-8 md:py-12">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-              {infoCards.map((card) => (
+              {infoCards.map((card, index) => (
                 <Link href={card.href} key={card.title} className="group">
-                  <Card className={cn(
+                  <Card
+                    className={cn(
                       "h-full transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl relative overflow-hidden",
                       "bg-card border-2 border-transparent hover:border-primary"
-                    )}>
+                    )}
+                  >
+                    <div
+                      className={cn(
+                        "absolute inset-0 opacity-20 transition-opacity duration-300 group-hover:opacity-30",
+                        `bg-gradient-to-br ${card.gradient}`
+                      )}
+                    />
                     <CardContent className="flex flex-col items-center justify-center aspect-square p-4 sm:p-6 text-center text-foreground">
-                       <div className="relative z-10 flex flex-col items-center justify-center">
+                      <div className="relative z-10 flex flex-col items-center justify-center">
                         <card.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 text-primary transition-transform duration-300 group-hover:scale-110" />
                         <h3 className="text-sm sm:text-base font-semibold">
                           {card.title}
@@ -193,7 +195,7 @@ export default function Home() {
               aria-label="WhatsApp"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <WhatsAppIcon className="w-6 h-6" />
+              <MessageCircle className="w-6 h-6" />
             </a>
             <a
               href="https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw=="
