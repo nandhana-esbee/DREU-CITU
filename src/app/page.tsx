@@ -33,49 +33,49 @@ const infoCards = [
     title: "Holidays List",
     icon: CalendarDays,
     href: "/holidays",
-    gradient: "from-purple-500 to-indigo-600",
+    imageUrl: "/images/card-holidays.jpg",
   },
   {
     title: "Promotions",
     icon: Megaphone,
     href: "/promotions",
-    gradient: "from-pink-500 to-rose-600",
+    imageUrl: "/images/card-promotions.jpg",
   },
   {
     title: "Images",
     icon: ImageIcon,
     href: "/images",
-    gradient: "from-orange-500 to-amber-600",
+    imageUrl: "/images/card-images.jpg",
   },
   {
     title: "RH/PER QR Codes",
     icon: QrCode,
     href: "/qr-codes",
-    gradient: "from-teal-500 to-cyan-600",
+    imageUrl: "/images/card-qrcodes.jpg",
   },
   {
     title: "Pay Chart",
     icon: BarChart3,
     href: "/pay-chart",
-    gradient: "from-sky-500 to-blue-600",
+    imageUrl: "/images/card-paychart.jpg",
   },
   {
     title: "Incentive Rate",
     icon: Percent,
     href: "/incentive-rate",
-    gradient: "from-lime-500 to-green-600",
+    imageUrl: "/images/card-incentive.jpg",
   },
   {
     title: "NRH OP Timing",
     icon: Clock,
     href: "/nrh-op-timing",
-    gradient: "from-violet-500 to-fuchsia-600",
+    imageUrl: "/images/card-timing.jpg",
   },
   {
     title: "Social Media",
     icon: Instagram,
     href: "https://www.instagram.com/dreu.citu.wd?igsh=MWRjMmVlbzhjOWNvaw==",
-    gradient: "from-red-500 to-yellow-500",
+    imageUrl: "/images/card-social.jpg",
   },
 ];
 
@@ -102,9 +102,9 @@ export default function Home() {
   }, [api]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen">
       <main className="flex-1">
-        <header className="py-8 md:py-12 bg-card border-b">
+        <header className="py-8 md:py-12 bg-card/80 backdrop-blur-sm border-b">
           <div className="container mx-auto px-4 text-center">
             <div className="flex items-center justify-center gap-4">
               <Star className="w-8 h-8 text-accent" />
@@ -157,19 +157,20 @@ export default function Home() {
                   <Card
                     className={cn(
                       "h-full transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl relative overflow-hidden",
-                      "bg-card border-2 border-transparent hover:border-primary"
+                      "border-2 border-transparent hover:border-primary"
                     )}
                   >
-                    <div
-                      className={cn(
-                        "absolute inset-0 opacity-20 transition-opacity duration-300 group-hover:opacity-30",
-                        `bg-gradient-to-br ${card.gradient}`
-                      )}
+                    <Image
+                      src={card.imageUrl}
+                      alt={card.title}
+                      fill
+                      className="object-cover -z-10 transition-transform duration-300 group-hover:scale-110"
                     />
-                    <CardContent className="flex flex-col items-center justify-center aspect-square p-4 sm:p-6 text-center text-foreground">
+                    <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition-colors duration-300" />
+                    <CardContent className="flex flex-col items-center justify-center aspect-square p-4 sm:p-6 text-center text-primary-foreground">
                       <div className="relative z-10 flex flex-col items-center justify-center">
-                        <card.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 text-primary transition-transform duration-300 group-hover:scale-110" />
-                        <h3 className="text-sm sm:text-base font-semibold">
+                        <card.icon className="w-10 h-10 sm:w-12 sm:h-12 mb-3 text-white drop-shadow-lg transition-transform duration-300 group-hover:scale-110" />
+                        <h3 className="text-sm sm:text-base font-semibold text-white drop-shadow-lg">
                           {card.title}
                         </h3>
                       </div>
@@ -182,7 +183,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="py-6 mt-auto bg-card border-t">
+      <footer className="py-6 mt-auto bg-card/80 backdrop-blur-sm border-t">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} All rights reserved.

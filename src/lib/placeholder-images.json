@@ -17,6 +17,60 @@
       "description": "Close-up on train wagon",
       "imageUrl": "/images/carousel-3.jpg",
       "imageHint": "train wagon"
+    },
+    {
+      "id": "background",
+      "description": "Abstract background",
+      "imageUrl": "/images/background.jpg",
+      "imageHint": "abstract background"
+    },
+    {
+      "id": "card-holidays",
+      "description": "Holiday decoration",
+      "imageUrl": "/images/card-holidays.jpg",
+      "imageHint": "holiday decoration"
+    },
+    {
+      "id": "card-promotions",
+      "description": "Promotion announcement",
+      "imageUrl": "/images/card-promotions.jpg",
+      "imageHint": "promotion announcement"
+    },
+    {
+      "id": "card-images",
+      "description": "Image gallery",
+      "imageUrl": "/images/card-images.jpg",
+      "imageHint": "image gallery"
+    },
+    {
+      "id": "card-qrcodes",
+      "description": "QR codes",
+      "imageUrl": "/images/card-qrcodes.jpg",
+      "imageHint": "qr codes"
+    },
+    {
+      "id": "card-paychart",
+      "description": "Pay chart",
+      "imageUrl": "/images/card-paychart.jpg",
+      "imageHint": "pay chart"
+    },
+    {
+      "id": "card-incentive",
+      "description": "Incentive rate",
+      "imageUrl": "/images/card-incentive.jpg",
+      "imageHint": "incentive rate"
+    },
+    {
+      "id": "card-timing",
+      "description": "Clock timing",
+      "imageUrl": "/images/card-timing.jpg",
+      "imageHint": "clock timing"
+    },
+    {
+      "id": "card-social",
+      "description": "Social media",
+      "imageUrl": "/images/card-social.jpg",
+      "imageHint": "social media"
     }
   ]
 }
