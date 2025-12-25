@@ -5,10 +5,7 @@ const AppHeader = () => {
     <header className="relative bg-transparent text-primary-foreground shadow-md overflow-hidden">
       <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
       <div className="container relative mx-auto px-4 py-4 flex items-center justify-center">
-        <div className="flex items-center">
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6 ml-1" />
-        </div>
+        <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
         <div className="mx-4 text-center">
           <h1 className="text-2xl md:text-4xl font-bold tracking-wider font-headline">
             DREU-CITU
@@ -18,10 +15,7 @@ const AppHeader = () => {
           </p>
           <p className="text-xs md:text-sm">Perambur</p>
         </div>
-        <div className="flex items-center">
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
-          <Star className="text-accent h-5 w-5 md:h-6 md:w-6 ml-1" />
-        </div>
+        <Star className="text-accent h-5 w-5 md:h-6 md:w-6" />
       </div>
     </header>
   );
