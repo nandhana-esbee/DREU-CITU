@@ -87,7 +87,7 @@ const InfoCards = () => {
                   data-ai-hint={cardImage.imageHint}
                 />
               )}
-              <div className="absolute inset-0 bg-black/50 transition-colors duration-300 group-hover:bg-black/60"></div>
+              <div className="absolute inset-0 bg-black/50 backdrop-blur-sm transition-colors duration-300 group-hover:bg-black/60"></div>
               <div className="relative flex h-full flex-col items-center justify-center p-4 text-center text-white">
                 <Icon className="h-12 w-12 text-accent drop-shadow-lg" />
                 <h3 className="mt-2 font-bold text-lg font-headline">{card.title}</h3>
